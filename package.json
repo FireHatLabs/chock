@@ -1,0 +1,23 @@
+{
+  "name": "park",
+  "version": "1.0.0",
+  "description": "Service to park your domains",
+  "main": "app.js",
+  "dependencies": {
+    "express": "~3.0.6",
+    "jade": "~0.28.1",
+    "mongodb": "~1.2.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@dispatch/FH/park.git"
+  },
+  "author": "Chris Compton",
+  "license": "MIT",
+  "gitHead": "e99283c9614fceaa85e53ea6a44b404e226e8cdb"
+}

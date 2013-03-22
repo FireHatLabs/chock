@@ -1,0 +1,16 @@
+{
+    "owner":
+    {
+        "name": "My Company",
+        "copyright_year": "2013",
+        "copyright_name": "My Legal Name",
+        "url": "http://YourDotCom"
+    },
+    "site":
+    {
+        "title": "Under Construction",
+        "header": "Hello, World!",
+        "message": "Currently Setting Up!"
+    }
+
+}

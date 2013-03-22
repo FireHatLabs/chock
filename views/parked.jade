@@ -1,0 +1,24 @@
+extends layout
+
+block content
+
+	div.container-narrow
+
+		div.masthead
+			h3.muted #{site}
+
+		hr
+
+		div.jumbotron
+			h1 #{header}
+			p.lead #{message}
+				p 
+					a(href='#{url}', role='button', class='btn btn-primary btn-large', data-toggle='modal') Managed by #{name}
+
+		hr
+
+		div.footer
+			p &copy; #{copyright_year} #{copyright_name}
+
+script(src='js/jquery.js')
+script(src='js/bootstrap.min.js')
