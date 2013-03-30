@@ -1,79 +1,52 @@
-img.bioPic {
-	margin: 0 auto;
+body {
+	font-size: 14px;
+	padding-top: 20px;
+	padding-bottom: 40px;
 }
 
-div.jumbotron h1 {
+div.container-narrow {
+	margin: 0 auto;
+	max-width: 700px;
+}
+
+div.container-narrow > hr {
+	margin: 1em 0;
+}
+
+div.promote  {
+	margin: 4em 0;
+	text-align: center;	
+}
+
+div.promote h1 {
+	font-size: 6em;
+	line-height: 1em;
 	margin-bottom: .2em;
 	clear: both;	
 }
 
-div.jumbotron p {
-	text-align: center;
-	clear: both;
+div.promote .btn {
+	font-size: 1.4em;
+	padding: 1em 2em;
 }
-
-/* Large desktop */
-@media (min-width: 1200px) { }
  
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) { }
- 
-/* Landscape phone to portrait tablet */
 @media (max-width: 767px) { 
 	
-	img.bioPic {
-		max-height: 200px;	
-		max-width: 200px;
+	div.container-narrow {
+		max-width: 350px;
 	}
-	
-	div.jumbotron h1 {
+
+	div.promote h1 {
 		font-size: 2em;
 	}
-	
-	div.jumbotron p {
+
+	div.promote .btn {
 		font-size: 1em;
-		line-height: 1.6em;
-	}
+		padding: 1em 2em;
+	}	
 	
 }
- 
-/* Landscape phones and down */
-@media (max-width: 480px) { }
 
 
 
-body {
-padding-top: 20px;
-padding-bottom: 40px;
-}
 
-/* Custom container */
-.container-narrow {
-margin: 0 auto;
-max-width: 700px;
-}
-.container-narrow > hr {
-margin: 30px 0;
-}
-
-/* Main marketing message and sign up button */
-.jumbotron {
-margin: 60px 0;
-text-align: center;
-}
-.jumbotron h1 {
-font-size: 72px;
-line-height: 1;
-}
-.jumbotron .btn {
-font-size: 21px;
-padding: 14px 24px;
-}
-
-/* Supporting marketing content */
-.marketing {
-margin: 60px 0;
-}
-.marketing p + h4 {
-margin-top: 28px;
-}
